@@ -11,7 +11,7 @@ body{
 div{
   background-color: #fcf876;
   color: #3797a4;
-  height: 400px;
+  height: auto;
 }
 h1{
   font-family: 'Monoton', cursive;
@@ -19,21 +19,31 @@ h1{
   padding-top: 50px;
 }
 
+.about{
+  width: 300px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .skills{
   display: flex;
   flex-direction: column;
 }
 .skills-title{
-  position: relative;
-  bottom: 20px;
-  display: inline-block;
+  /* position: relative;
+  bottom: 20px; */
+  /* display: inline-block; */
   text-align: left;
+  align-self: center;
   height: auto;
 }
 
 .skill-row{
   margin: 20px;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   height: auto;
 }
 
