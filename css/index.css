@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+}
+
+body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+div{
+  background-color: #fcf876;
+  color: #3797a4;
+  height: 400px;
+}
+h1{
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+}
+.skills-title{
+  position: relative;
+  bottom: 20px;
+  display: inline-block;
+  text-align: left;
+  height: auto;
+}
+
+.skill-row{
+  margin: 20px;
+  display: inline-block;
+  height: auto;
+}
+
+.logo{
+  border-radius: 100%;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
