@@ -6,22 +6,31 @@ body{
   text-align: center;
   display: flex;
   flex-direction: column;
+  background-color: #fcf876;
+
 }
 
 div{
-  background-color: #fcf876;
   color: #3797a4;
   height: auto;
 }
 h1{
-  font-family: 'Monoton', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 50px;
   padding-top: 50px;
 }
 
+
 .about{
   width: 300px;
+  background-color: #e4e4e4;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 15px;
+  border-radius: 20px;
+
 }
+
 .info{
   display: flex;
   flex-direction: column;
@@ -53,4 +62,12 @@ h1{
   height: 100px;
   width: 100px;
   margin: 20px;
+}
+
+#profile{
+  height: 200px;
+  width: 200px;
+  border-color: #8ccbbe;
+  border-style: solid;
+  border-width: 5px;
 }
