@@ -7,6 +7,7 @@ body{
   display: flex;
   flex-direction: column;
   background-color: #fcf876;
+  font-family: 'Open Sans'
 
 }
 
@@ -15,9 +16,11 @@ div{
   height: auto;
 }
 h1{
-  font-family: 'Lobster', cursive;
+  font-family: cursive;
   font-size: 50px;
   padding-top: 50px;
+  position: absolute;
+  z-index: 1;
 }
 
 
@@ -30,11 +33,17 @@ h1{
   border-radius: 20px;
 
 }
-
+.toronto{
+  position: relative;
+  right: 150px;
+  opacity: .7
+}
 .info{
+  background-color: #EAF6F6;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto;
 }
 .skills{
   display: flex;
@@ -63,7 +72,17 @@ h1{
   width: 100px;
   margin: 20px;
 }
+#cloud{
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+#programmer{
+  position: relative;
+  top: 120px;
+  z-index: 1;
 
+}
 #profile{
   height: 200px;
   width: 200px;
