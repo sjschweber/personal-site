@@ -85,8 +85,8 @@ h1{
 }
 #cloud{
   position: absolute;
-  top: 0px;
   right: 20px;
+  height: 300px;
 }
 #programmer{
   position: relative;
