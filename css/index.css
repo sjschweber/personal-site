@@ -6,7 +6,7 @@ body{
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: #fcf876;
+  background-color: white;
   font-family: 'Open Sans'
 
 }
@@ -33,10 +33,23 @@ h1{
   border-radius: 20px;
 
 }
+
+.contact-me{
+  background-color: #EAF6F6;
+  padding: 10px;
+}
+.bottom-container{
+  background-color: #EAF6F6;
+  padding: 10px;
+
+}
 .toronto{
   position: relative;
   right: 150px;
   opacity: .7
+}
+.hello{
+  align-self: center;
 }
 .info{
   background-color: #EAF6F6;
@@ -66,8 +79,6 @@ h1{
 }
 
 .logo{
-  border-radius: 100%;
-  background-color: white;
   height: 100px;
   width: 100px;
   margin: 20px;
@@ -87,6 +98,7 @@ h1{
   height: 200px;
   width: 200px;
   border-color: #8ccbbe;
+  border-radius: 100%;
   border-style: solid;
   border-width: 5px;
 }
